@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <!-- Project Name -->
+    <h1>Number System Converter</h1>
+    <!-- Developers -->
+    <h2>Developed by Krisha Pulvera and Roina Jandayan</h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <input type="number" id="inputNumber" name="number" placeholder="Enter Number:">
+        <br>
+        <br>
+        <label>From:</label>
+        <select id="fromBase">
+            <option value="10">Decimal</option>
+            <option value="2">Binary</option>
+            <option value="8">Octal</option>
+            <option value="16">Hexadecimal</option>
+    </select>
+    <br>
+    <br>
+            <button type="button" onclick="convertNumber()">Convert</button>
+     <br><br>
+
+    
+    </div>
+    <div id="result">
+        <h3>Result:</h3>
+        <p id="binaryResult"></p>
+        <p id="hexResult"></p>
+        <p id="octalResult"></p>
+        <p id="decimalResult"></p>
+    </div>
+
+    <br>
+    <br>
+    
+    <script src="script.js"></script>
+</body>
+</html>
